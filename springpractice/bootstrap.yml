@@ -1,0 +1,5 @@
+web-flux-config:
+  corsMapping: test
+  allowedOrigin: "https://localhost:8080"
+  maxMemoryInBytes: 1073741824
+  costTrackerBaseUrl: "https://mebp.qa1.westus.aks.az.albertsons.com"
