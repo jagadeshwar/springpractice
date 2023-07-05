@@ -1,0 +1,24 @@
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: false
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+web-flux-config:
+  corsMapping: "/api/**"
+  allowedOrigin: "https://localhost:8080"
+  maxMemoryInBytes: 1073741824
+  costTrackerBaseUrl: "https://mebp.qa1.westus.aks.az.albertsons.com"
+
+mongodb:
+  uri: mongodb://localhost:27017
+  databaseName: ProductsDB
+  connectTimeout: 30
+  readTimeout: 30
+  maxWaitTime: 30
+  maxPoolSize: 200
+  minPoolSize: 50
+  maxConnectionIdleTime: 30
